@@ -12,7 +12,7 @@ def run_system_monolith():
     
     loading = 0
     while loading < 5:
-        print("Loading module " + str(loading))
+        print("Loading module " + int(loading)) #type error,loading is not str
         
     
     while True:
